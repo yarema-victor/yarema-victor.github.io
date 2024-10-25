@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: inline-block;
+    width: 320px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through; /* Текст перекреслений для виконаних завдань */
+    color: gray; /* Колір тексту для виконаних завдань */
+}
+
+li input[type="checkbox"] {
+    margin: 0 10px 0 0;
+    width: 20px;
+    height: 20px;
+}
+
+.taskText {
+    flex-grow: 1;
+    text-align: left;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.deleteBtn {
+    background-color: transparent;
+    border: none;
+    color: red; /* Хрестик червоний */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sorting-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.sorting-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sorting-buttons button:hover {
+    background-color: #e0e0e0;
+}
