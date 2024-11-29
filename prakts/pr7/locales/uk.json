@@ -1,0 +1,26 @@
+{
+  "squadName": "Загін супергероїв",
+  "homeTown": "Рідне місто",
+  "formed": "Засновано",
+  "secretIdentity": "Секретна особа",
+  "age": "Вік",
+  "superpowers": "Надздібності",
+  "heroes": {
+    "Molecule Man": "Чоловік-Молекула",
+    "Madame Uppercut": "Мадам Аперкот",
+    "Eternal Flame": "Вічне Полум'я"
+  },
+  "powers": {
+    "Radiation resistance": "Стійкість до радіації",
+    "Turning tiny": "Зменшення розмірів",
+    "Radiation blast": "Радіаційний вибух",
+    "Million tonne punch": "Удар у мільйон тонн",
+    "Damage resistance": "Стійкість до пошкоджень",
+    "Superhuman reflexes": "Надлюдські рефлекси",
+    "Immortality": "Безсмертя",
+    "Heat Immunity": "Імунітет до спеки",
+    "Inferno": "Пекельне полум'я",
+    "Teleportation": "Телепортація",
+    "Interdimensional travel": "Міжвимірні подорожі"
+  }
+}

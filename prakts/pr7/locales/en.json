@@ -1,0 +1,26 @@
+{
+  "squadName": "Super Hero Squad",
+  "homeTown": "Hometown",
+  "formed": "Formed",
+  "secretIdentity": "Secret identity",
+  "age": "Age",
+  "superpowers": "Superpowers",
+  "heroes": {
+    "Molecule Man": "Molecule Man",
+    "Madame Uppercut": "Madame Uppercut",
+    "Eternal Flame": "Eternal Flame"
+  },
+  "powers": {
+    "Radiation resistance": "Radiation resistance",
+    "Turning tiny": "Turning tiny",
+    "Radiation blast": "Radiation blast",
+    "Million tonne punch": "Million tonne punch",
+    "Damage resistance": "Damage resistance",
+    "Superhuman reflexes": "Superhuman reflexes",
+    "Immortality": "Immortality",
+    "Heat Immunity": "Heat Immunity",
+    "Inferno": "Inferno",
+    "Teleportation": "Teleportation",
+    "Interdimensional travel": "Interdimensional travel"
+  }
+}
