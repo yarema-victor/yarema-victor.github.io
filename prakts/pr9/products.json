@@ -1,4 +1,20 @@
 {
+  "localization": {
+      "uk": {
+        "title": "Комп'ютерні комплектуючі",
+        "button_cart": "У кошик",
+        "button_disabled": "Незабаром у продажі",
+        "sticker_hit": "Хіт продажів",
+        "sticker_new": "Новинка"
+      },
+      "en": {
+        "title": "Computer Components",
+        "button_cart": "Add to Cart",
+        "button_disabled": "Coming Soon",
+        "sticker_hit": "Bestseller",
+        "sticker_new": "New"
+      }
+  },
   "products": [
       {
           "id": 1,
