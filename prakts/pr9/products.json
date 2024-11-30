@@ -24,8 +24,8 @@
           },
           "category_url": "https://hard.rozetka.com.ua/ua/motherboards/c80082/",
           "name": {
-              "uk": "Материнська плата Asus TUF Gaming B550M-Plus",
-              "en": "Motherboard Asus TUF Gaming B550M-Plus"
+              "uk": "Материнська плата Asus TUF Gaming B550M-Plus (sAM4, AMD B550, PCI-Ex16)",
+              "en": "Motherboard Asus TUF Gaming B550M-Plus (sAM4, AMD B550, PCI-Ex16)"
           },
           "price": {
               "old": 5229,
@@ -43,8 +43,8 @@
           },
           "category_url": "https://hard.rozetka.com.ua/ua/processors/c80083/",
           "name": {
-              "uk": "Процесор Intel Core Ultra 7 265K",
-              "en": "Processor Intel Core Ultra 7 265K"
+              "uk": "Процесор Intel Core Ultra 7 265K 3.9GHz/30MB (BX80768265K) s1851 BOX",
+              "en": "Processor Intel Core Ultra 7 265K 3.9GHz/30MB (BX80768265K) s1851 BOX"
           },
           "price": null,
           "image": "2.jpg",
@@ -59,8 +59,8 @@
           },
           "category_url": "https://hard.rozetka.com.ua/ua/memory/c80081/",
           "name": {
-              "uk": "Оперативна пам’ять Kingston Fury DDR4-3200",
-              "en": "RAM Kingston Fury DDR4-3200"
+              "uk": "Оперативна пам’ять Kingston Fury DDR4-3200 16384MB PC4-25600 (Kit of 2x8192) Beast Black (KF432C16BBK2/16)",
+              "en": "RAM Kingston Fury DDR4-3200 16384MB PC4-25600 (Kit of 2x8192) Beast Black (KF432C16BBK2/16)"
           },
           "price": {
               "old": 2119,
@@ -78,8 +78,8 @@
           },
           "category_url": "https://hard.rozetka.com.ua/ua/videocards/c80087/",
           "name": {
-              "uk": "Відеокарта ASUS GeForce RTX 4070",
-              "en": "Graphics Card ASUS GeForce RTX 4070"
+              "uk": "Відеокарта ASUS PCI-Ex GeForce RTX 4070 Super Dual EVO OC Edition 12GB GDDR6X (192bit) (2550/21000) (HDMI, 3 x DisplayPort) (DUAL-RTX4070S-O12G-EVO)",
+              "en": "Graphics Card ASUS GeForce RTX 4070 Super Dual EVO OC Edition 12GB GDDR6X (192bit) (2550/21000) (HDMI, 3 x DisplayPort) (DUAL-RTX4070S-O12G-EVO)"
           },
           "price": {
               "old": 31299,
@@ -97,8 +97,8 @@
           },
           "category_url": "https://hard.rozetka.com.ua/ua/ssd/c80109/",
           "name": {
-              "uk": "SSD Kingston NV2 1TB",
-              "en": "SSD Kingston NV2 1TB"
+              "uk": "SSD диск Kingston NV2 1TB M.2 2280 NVMe PCIe 4.0 x4 (SNV2S/1000G)",
+              "en": "SSD Kingston NV2 1TB M.2 2280 NVMe PCIe 4.0 x4 (SNV2S/1000G)"
           },
           "price": {
               "old": 3059,
@@ -114,10 +114,10 @@
               "uk": "Блоки живлення",
               "en": "Power Supplies"
           },
-          "category_url": "https://hard.rozetka.com.ua/ua/ssd/c80109/",
+          "category_url": "https://hard.rozetka.com.ua/ua/psu/c80086/",
           "name": {
-              "uk": "Блок живлення Chieftec GPS-700A8",
-              "en": "Power Supply Chieftec GPS-700A8"
+              "uk": "Блок живлення Chieftec GPS-700A8 700 W",
+              "en": "Power Supply Chieftec GPS-700A8 700 W"
           },
           "price": {
               "new": 2249
