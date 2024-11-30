@@ -1,0 +1,108 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "category": {
+              "uk": "Материнські плати",
+              "en": "Motherboards"
+          },
+          "name": {
+              "uk": "Материнська плата Asus TUF Gaming B550M-Plus",
+              "en": "Motherboard Asus TUF Gaming B550M-Plus"
+          },
+          "price": {
+              "old": 5229,
+              "new": 5099
+          },
+          "image": "1.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/asus_tuf_gaming_b550m_plus/p218448427/",
+          "sticker": "Хіт продажів"
+      },
+      {
+          "id": 2,
+          "category": {
+              "uk": "Процесори",
+              "en": "Processors"
+          },
+          "name": {
+              "uk": "Процесор Intel Core Ultra 7 265K",
+              "en": "Processor Intel Core Ultra 7 265K"
+          },
+          "price": null,
+          "image": "2.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/intel-bx80768265k/p454463807/",
+          "sticker": "Новинка"
+      },
+      {
+          "id": 3,
+          "category": {
+              "uk": "Оперативна пам'ять",
+              "en": "RAM"
+          },
+          "name": {
+              "uk": "Оперативна пам’ять Kingston Fury DDR4-3200",
+              "en": "RAM Kingston Fury DDR4-3200"
+          },
+          "price": {
+              "old": 2119,
+              "new": 1499
+          },
+          "image": "3.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/kingston_fury_kf432c16bbk2_16/p310064023/",
+          "sticker": "Хіт продажів"
+      },
+      {
+          "id": 4,
+          "category": {
+              "uk": "Відеокарти",
+              "en": "Graphics Cards"
+          },
+          "name": {
+              "uk": "Відеокарта ASUS GeForce RTX 4070",
+              "en": "Graphics Card ASUS GeForce RTX 4070"
+          },
+          "price": {
+              "old": 31299,
+              "new": 27999
+          },
+          "image": "4.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/asus-dual-rtx4070s-o12g-evo/p414051228/",
+          "sticker": null
+      },
+      {
+          "id": 5,
+          "category": {
+              "uk": "SSD диски",
+              "en": "SSD Drives"
+          },
+          "name": {
+              "uk": "SSD Kingston NV2 1TB",
+              "en": "SSD Kingston NV2 1TB"
+          },
+          "price": {
+              "old": 3059,
+              "new": 2449
+          },
+          "image": "6.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/kingston-snv2s-1000g/p353568015/",
+          "sticker": "Новинка"
+      },
+      {
+          "id": 6,
+          "category": {
+              "uk": "Блоки живлення",
+              "en": "Power Supplies"
+          },
+          "name": {
+              "uk": "Блок живлення Chieftec GPS-700A8",
+              "en": "Power Supply Chieftec GPS-700A8"
+          },
+          "price": {
+              "new": 2249
+          },
+          "image": "5.jpg",
+          "url": "https://hard.rozetka.com.ua/ua/chieftec_gps-700a8_700_w/p246047/",
+          "sticker": "Хіт продажів"
+      }
+  ]
+}
