@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товарів</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="language-switcher">
+        <label for="language-selector">Select a language:</label>
+        <select id="language-selector">
+            <option value="uk">Українська</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+
+    <div class="catalog-container">
+        <h1 class="main-title">Комп'ютерні комплектуючі</h1>
+        <!-- SwiperJS контейнер -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="products">
+                <!-- Тут будуть генеруватись картки товарів через JavaScript -->
+            </div>
+            <!-- Кнопки навігації -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Пагінація -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
