@@ -2,9 +2,8 @@ const jsonUrl = "https://yarema-victor.github.io/prakts/pr9/products.json";
 
 let swiper;
 
-// Ініціалізація SwiperJS
 function initSwiper() {
-    if (swiper) swiper.destroy(); // Перезапуск Swiper, якщо він уже існує
+    if (swiper) swiper.destroy();
     swiper = new Swiper('.swiper-container', {
         slidesPerView: 4,
         spaceBetween: 20,
@@ -24,30 +23,26 @@ function initSwiper() {
     });
 }
 
-// Завантаження товарів
 async function loadProducts() {
     try {
         const response = await fetch(jsonUrl);
         const data = await response.json();
         const lang = localStorage.getItem("language") || "uk";
 
-        // Оновлення заголовка сторінки
         document.querySelector('.main-title').textContent = data.localization[lang].title;
 
-        // Рендеринг товарів
         renderProducts(data.products, data.localization[lang]);
-        initSwiper(); // Ініціалізація Swiper після рендерингу
+        initSwiper();
     } catch (error) {
         console.error("Помилка завантаження даних:", error);
     }
 }
 
-// Рендеринг товарів
 function renderProducts(products, localization) {
     const wrapper = document.getElementById("products");
-    wrapper.innerHTML = ""; // Очищення контейнера
+    wrapper.innerHTML = "";
 
-    const lang = localStorage.getItem("language") || "uk"; // Мова користувача або за замовчуванням українська
+    const lang = localStorage.getItem("language") || "uk";
 
     products.forEach(product => {
         const productCard = `
@@ -75,17 +70,14 @@ function renderProducts(products, localization) {
     });
 }
 
-// Збереження мови та оновлення контенту
 function setLanguage(language) {
     localStorage.setItem("language", language);
-    loadProducts(); // Перезавантаження продуктів після зміни мови
+    loadProducts();
 }
 
-// Ініціалізація при завантаженні сторінки
 document.addEventListener("DOMContentLoaded", () => {
     loadProducts();
 
-    // Додавання обробника для перемикання мови
     const languageSelector = document.getElementById("language-selector");
     languageSelector.value = localStorage.getItem("language") || "uk";
     languageSelector.addEventListener("change", event => {
